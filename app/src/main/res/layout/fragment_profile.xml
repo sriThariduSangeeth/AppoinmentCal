@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sangeeth.braintestapp.About">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aboutcolo"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p4"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dilan Tharidu Sangeeth"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="13dp"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="80dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_email_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/bluelight"
+            android:text="dilan.2015043@iit.ac.lk"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="25dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="80dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_local_phone_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/bluelight"
+            android:text="+(94)33 22 935 78"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="25dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="80dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_phone_iphone_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/bluelight"
+            android:text="+(94)77 505 44 90"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="25dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="80dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_question_answer_black_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/bluelight"
+            android:text="Any Comments"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="25dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyle1"
+        android:text="THANK YOU"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorwhite"
+        android:gravity="end"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

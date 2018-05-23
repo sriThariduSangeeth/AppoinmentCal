@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:background="@drawable/sky78">
+
+
+    <TextView
+        android:id="@+id/colse"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:textColor="@color/Red"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/cerclebackground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Update Appoinment"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"/>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Appointment Title :"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/titleedit"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="7dp"
+        android:ems="10"
+        android:hint="Type here Titel..."
+        android:inputType="text"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Appointment Time :"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/timeedit"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="7dp"
+        android:ems="10"
+        android:hint="Type here Date..."
+        android:inputType="text"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Appointment About :"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/aboutedit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Small Discription..."
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="UPDATE"
+        android:textStyle="bold"
+        android:textColor="@color/OrangeRed"
+        android:background="@drawable/buttonshape"/>
+
+</LinearLayout>
